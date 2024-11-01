@@ -1,0 +1,18 @@
+
+#pesquisa {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+main {
+    display: flex;
+    
+    margin-top: 20px;
+}
+
+
+.img-products{
+    width: 200px;
+    display: inline;
+    
+    
+}
