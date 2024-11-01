@@ -1,0 +1,22 @@
+nav.menu {
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 34px;
+    /* margin-top: 22px; */
+    height: 80px;
+
+}
+
+button#nav {
+    background-color: transparent;
+    border: none;
+    margin-left: 52px;
+}
+
+nav.menu>a {
+    text-decoration: none;
+    color: black;
+    
+}

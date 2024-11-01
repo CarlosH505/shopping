@@ -1,11 +1,20 @@
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import './styles/App.css'
 import Login from './pages/Login'
+import Products from './pages/products'
+
+
+
 
 function App() {
 
   return (
     <>
-      <Login/>
+    <Routes>
+      <Route path='/' element={<Login/>} />
+      <Route path='/products' element={<Products/>} />
+    </Routes>
+     
     </>
   )
 }
