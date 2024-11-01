@@ -1,15 +1,4 @@
-import { useNavigate } from "react-router-dom"
-import '../styles/Login.css'
-
-
 function Login() {
-    const navigate = useNavigate()
-
-    function click() {
-        navigate("/products")
-    }
- 
-
     return (
         <div className="cont">
             <div className="container">
@@ -43,16 +32,13 @@ function Login() {
                     <a href="#">Esqueceu a senha?</a>
                 </div>
 
-
-
-
-                <div className="botao" >
-                    <button onClick={click}>Entrar</button>
+                <div className="botao">
+                    <button>Entrar</button>
                 </div>
 
             </div>
 
-
+        
 
         </div>
 
